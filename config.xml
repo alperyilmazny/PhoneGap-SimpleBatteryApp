@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.td.batterystatusdemo" version="1.0.0">
-  <name>Battery Battery Status App</name>
+  <name>Battery Status App</name>
   <description>PhoneGap sample application that responds to the deviceready,batterystatus,batterylow,batterycritical events.</description>
   <author href="http://techdining.com/" email="techdining@gmail.com">TechDining Team</author>
   <content src="index.html"/>
