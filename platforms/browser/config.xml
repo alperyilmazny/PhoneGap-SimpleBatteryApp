@@ -6,7 +6,7 @@
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>Battery Battery Status App</name>
+    <name>Battery Status App</name>
     <description>PhoneGap sample application that responds to the deviceready,batterystatus,batterylow,batterycritical events.</description>
     <author email="techdining@gmail.com" href="http://techdining.com/">TechDining Team</author>
     <content src="index.html" />

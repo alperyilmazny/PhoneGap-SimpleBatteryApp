@@ -81,7 +81,7 @@
     <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
     <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     <allow-intent href="market:*" />
-    <name>Battery Battery Status App</name>
+    <name>Battery Status App</name>
     <description>PhoneGap sample application that responds to the deviceready,batterystatus,batterylow,batterycritical events.</description>
     <author email="techdining@gmail.com" href="http://techdining.com/">TechDining Team</author>
     <content src="index.html" />
