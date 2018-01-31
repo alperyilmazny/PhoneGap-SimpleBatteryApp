@@ -1,4 +1,4 @@
-//initializing the default values of progress bar
+// Initializing the default values of progress bar
 var DEFAULTS = {
     backgroundColor: '#b3cef6',
     progressColor: '#4b86db',
@@ -6,10 +6,10 @@ var DEFAULTS = {
     duration: 2000
 };
 
-//trigger init method when the device is ready
+// Trigger init method when the device is ready
 document.addEventListener('deviceready', init, false);
 
-//adding battery events
+// Adding battery events
 function init() {
     //add event to track the battery state of the device
     window.addEventListener("batterylow", onBatteryLow, false);
@@ -17,7 +17,7 @@ function init() {
     window.addEventListener("batterystatus", onBatteryStatus, false);
 }
 
-//triggered when battery lever changed by 1% or charging plugged or unplugged
+// Triggered when battery lever changed by 1% or charging plugged or unplugged
 function onBatteryStatus(info) {
 
     //assigning the battery level to the default percent
@@ -41,6 +41,8 @@ function onBatteryStatus(info) {
         DEFAULTS.backgroundColor = '#fbcece';
         DEFAULTS.progressColor = '#ee0d0d';
     }
+
+    document.getElementById('deviceInfo').innerHTML = info.isPlugged ? "Device is plugged in" : "Device is not plugged in";
 
     //reloading the progress bar
     $(".progress-bar").loading();
